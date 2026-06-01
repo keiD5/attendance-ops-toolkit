@@ -1,5 +1,7 @@
 # Attendance Ops Toolkit
 
+Korean translation: [README.ko.md](README.ko.md)
+
 Attendance Ops Toolkit is a small open-source starter kit for teams that run leave, overtime, shift, and approval workflows.
 
 It focuses on the boring but important parts of operations software:
@@ -28,7 +30,10 @@ Think of it as a checklist and tool bag for the front desk, the back office, and
 - `docs/release-checklist.md`: release preparation and rollback notes
 - `templates/attendance-request-template.md`: generic request template
 - `templates/incident-report-template.md`: incident note template
+- `docs/review-notes.ko.md`: Korean review notes for the current public toolkit structure
 - `scripts/scan-public-safety.sh`: quick local scan for secrets and private data markers
+
+Korean translations are available next to the English files with the `.ko.md` suffix.
 
 ## Quick Start
 
@@ -37,6 +42,8 @@ Run the public-safety scan before publishing a repository:
 ```bash
 bash scripts/scan-public-safety.sh .
 ```
+
+This script requires `ripgrep` (`rg`). It is a helper, not a complete security scanner. Review the repository manually before publishing.
 
 Review the checklists:
 
