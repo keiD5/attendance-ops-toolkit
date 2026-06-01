@@ -1,0 +1,37 @@
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.env
+*.p8
+*.pem
+*.key
+*-firebase-adminsdk-*.json
+service-account*.json
+local_secrets/
+
+# Dependency folders
+node_modules/
+.gradle/
+.gradle-tmp/
+
+# Build and generated output
+build/
+dist/
+DerivedData/
+.deriveddata/
+test-results/
+reports/
+coverage/
+
+# Local data exports
+*.xlsx
+*.xls
+*.csv
+*.sqlite
+*.db
+
+# Tool caches
+.firebase/
+firestore-debug.log
